@@ -35,7 +35,7 @@ async function handleUserDataRequest(request) {
         // unknown error
         return new Response(null, init, {
             status: 400,
-            statusText: 'Error fetching profile data',
+            statusText: 'Error fetching profile',
         })
     }
 }
