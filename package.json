@@ -1,0 +1,26 @@
+{
+    "name": "my-worker-with-router",
+    "version": "1.0.0",
+    "description": "package for creating workers templates",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "ianlapham <ianlapham@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "crypto-js": "^4.0.0",
+        "login-with-twitter": "^1.2.3",
+        "oauth": "^0.9.15",
+        "passport": "^0.4.1",
+        "passport-oauth": "^1.0.0",
+        "passport-twitter": "^1.0.4",
+        "request": "^2.88.2",
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}
